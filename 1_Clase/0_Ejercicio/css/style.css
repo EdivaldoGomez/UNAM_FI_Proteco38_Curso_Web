@@ -1,0 +1,26 @@
+.caja1{
+	background: #419CE3;
+		/*Información*/
+		margin-top: 50px;
+		margin-left: 30px;
+		margin-right: 40px;
+		margin-bottom: : 20px;
+		padding-top: 50px;
+		padding-left: 30px;
+		padding-right: 40px;
+		padding-bottom: 40px;
+}
+
+.caja2{
+	margin: 50px;
+	padding: 60px;
+}
+
+.caja3{
+	border-top-style: double;
+	border-right-style: solid;
+	border-left-style: dashed;
+	border-bottom-style: dotted;
+	border-radius: 30px;
+	border-width: 20px;
+}

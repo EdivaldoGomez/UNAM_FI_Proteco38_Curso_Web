@@ -1,0 +1,52 @@
+/*
+p>span{
+	color: red;
+}
+*/
+
+/*Selector descendente*/
+
+/*
+p a{
+	background: red;
+}
+
+p>a {
+	background: blue;
+}
+*/
+
+/*
+h2{
+	background: pink;
+}
+
+h1 + h2{
+	background: yellow;
+}
+
+p + p {
+	text-indent: 1.5em;
+}
+*/
+/*
+p + p{
+	background: green
+}
+*/
+/*
+p[class=clase2]{
+	background: brown;
+}
+
+p[class]{
+	background: yellow;
+}
+*/
+a[Class~="estilo2"]{
+	background: blue;
+}
+a[Class=="estilo1"]{
+	background: yellow;
+
+}

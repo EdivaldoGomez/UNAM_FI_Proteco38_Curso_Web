@@ -1,0 +1,127 @@
+body{
+	color:  #057D;
+	margin: 0;
+	font-size: 1em
+}
+
+@media screen and (max-width: 1800px) and (min-width: 990px){
+	.headerd{
+		padding-top:170px;
+		height: 850px;
+		background: 
+		linear-gradient(#ffa949,transparent 90%),
+		linear-gradient(0deg,#fff,transparent),
+		url("../img/volcan.jpg") no-repeat center;
+
+		background-size: cover;
+	}
+
+	body{
+		color: #ffa949;
+	}
+	.titulo{
+		color:white;
+		font-size: 1.6em;
+		letter-spacing: 0.06em;
+		padding-bottom: 10px;
+	}
+
+	.primera,.segunda{
+		width: 75%;
+		padding-left: 50px;
+		padding-right: 50px;
+		margin:auto;
+		max-width: 960px;
+	}
+
+	.hotel,.tips{
+		width: 45%;
+	}
+	.hotel{
+		float: left;
+	}
+
+	.tips{
+		float: right;
+	}
+}
+
+@media  screen and (max-width: 990px) and (min-width: 600){
+	.headerd{
+		padding-top: 170px;
+		height: 850px;
+		background: 
+		linear-gradient(red,transparent 90%),
+		linear-gradient(0deg, #fff,transparent),
+		url("../img/volcan.jpg") no-repeat center;
+		background-size: cover;
+	}
+	body{
+		color: red;
+	}
+	.titulo{
+		color:white;
+		font-size: 1.6em;
+		letter-spacing: 0.06em;
+		padding-bottom: 10px;
+	}
+
+	.primera,.segunda{
+		width: 75%;
+		padding-left: 50px;
+		padding-right: 50px;
+		margin:auto;
+		max-width: 960px;
+	}
+
+	.hotel,.tips{
+		width: 45%;
+	}
+	.hotel{
+		float: left;
+	}
+
+	.tips{
+		float: right;
+	}
+}
+
+@media  screen and (max-width: 400px) and (min-width: 0px){
+	.headerd{
+		padding-top: 170px;
+		height: 850px;
+		background: 
+		linear-gradient(blue,transparent 90%),
+		linear-gradient(0deg, #fff,transparent),
+		url("../img/volcan.jpg") no-repeat center;
+		background-size: cover;
+	}
+	body{
+		color: blue;
+	}
+	.titulo{
+		color:white;
+		font-size: 1em;
+		letter-spacing: 0.06em;
+		padding-bottom: 10px;
+	}
+
+	.primera,.segunda{
+		width: 75%;
+		padding-left: 50px;
+		padding-right: 50px;
+		margin:auto;
+		max-width: 960px;
+	}
+
+	.hotel,.tips{
+		width: 45%;
+	}
+	.hotel{
+		float: left;
+	}
+
+	.tips{
+		float: right;
+	}
+}

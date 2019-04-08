@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+<h1><b> LA MEGALOPOLIS </b></h1>
+<h1>¿De qué parte eres?</h1>
+<div class ="container">
+	<div class="row align-items-center">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 color"> 
+				
+			<form>
+				<label for="fname">Usuario:</label>
+	    		<input type="text" id="fname" name="firstname" placeholder="Nombre" required="required">
+	    			<label for="lname">Contraseña:</label>
+			    	<input type="password" id="password" name="passwd" required="required">
+			    	<label for="password">Confirmar Contraseña:</label>
+			    	<input type="password" id="password" name="passwd" required="required">
+					<label for="country">Estado:</label>
+	   				<select id="country" name="country">
+	     				<option value="Ciudad de México">Ciudad de México</option>
+	      				<option value="Estado de México">Estado de México</option>
+	    				<option value="Puebla">Puebla</option>
+	    				<option value="Morelos">Morelos</option>
+	    				<option value="Hidalgo">Hidalgo</option>
+	    				<option value="Tlaxcala">Tlaxcala</option>
+	    			</select>
+			</form>
+		</div>
+
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 color"> 
+				
+			<form>
+				<label for="password">Fecha de nacimiento:</label>
+				<input type="date" name="Fecha" size="20">
+				<label for="lname">Ocupación</label>	
+    			<input type="radio" name="p1" value="1"> <p type="option">Estudiante</p>
+    			<input type="radio" name="p1" value="2"> Trabajador
+    			<input type="radio" name="p1" value="3"> Ambos
+  				
+  				<label for="lname">Bebida Favorita</label>
+  				<input type="radio" name="p2" value="1"> <h5 type="text"> Pulque </h5>
+    			<input type="radio" name="p2" value="2"> Mezcal
+    			<input type="radio" name="p2" value="2"> tequila
+				<label for="descripcion">Describa que le gusta de México</label> <br/>
+				<textarea type= "box"id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
+	    		
+			</form>
+		</div>
+
+		<input type="submit" value="Enviar">
+	
+	</div>
+</div>
+	
+</div>
+</body>
+</html>

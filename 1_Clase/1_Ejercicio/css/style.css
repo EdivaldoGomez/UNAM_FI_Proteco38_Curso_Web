@@ -1,0 +1,85 @@
+/*Empieza sección general*/
+body {
+	background-color: #f1f1f1f1;
+	height: 100%;
+	margin:0;
+	padding: 0;
+}
+h1{
+	color: #ffff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	font-family: 'Germania One', cursive;
+}
+header{
+	background-color:#004080;
+	margin: 0;
+	padding: 0;
+}
+nav il il{
+	display: inline;
+	text-align: center;
+	font-family: font-family: 'Mukta', sans-serif;
+}
+ul{
+	list-style: none;
+}
+nav a, footer a{
+	display: inline-block;
+	width: 130px;
+	height: 120px;
+	text-decoration: none;
+	background-color: #0A0A2A;
+	color: white;
+}
+li:hover a{
+	background-color: rgb(128,128,0);
+}
+footer{
+	font-family: 'Baloo Chettan'
+	height:120px;
+	background-color: grey;
+}
+.active{
+	background-color: #CCC;
+	color:black;
+	font-weight: bold;
+}
+/*Termina sección general*/
+h2{
+	text-align: center;
+	padding-top: 20px;
+}
+.informacion-personal{
+	text-align: center;
+	width: 45%;
+}
+
+#imageIndex{
+	width: 50%;
+}
+.informacion_justificada{
+	text-align: center;
+	width: 45%;
+	text-align: justify;
+}
+#premios {
+		width: aunto;
+		margin-left: 15%;
+		margin-bottom: 15px;
+}
+table, th, td{
+	border: 2px solid rgm(28,58,64);
+	padding:0,15px;
+	border-collapse: collapse;
+}
+.celdaImagen{
+	width: 200px;
+	height: auto;
+	text-align: center;
+	border-collapse: collapse;;
+}
+td img{
+width: 90%;
+}

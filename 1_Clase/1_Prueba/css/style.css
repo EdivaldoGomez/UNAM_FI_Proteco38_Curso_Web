@@ -1,0 +1,17 @@
+.modeladoLogo{
+	padding : 300px 600px;
+	width: 130px;
+	height: 130px;
+}
+img{
+	width: 80%;
+	height:  auto;
+}
+.parrafo1{
+	margin: 10px 50px;
+	padding: 20px;
+	border-width: 15px;
+	border-style: ridge;
+	border-color: yellow;
+	
+}

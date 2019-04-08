@@ -1,0 +1,41 @@
+body{
+	margin:0;
+	background-color: gray;
+}
+
+.contenedor{
+	display: flex;
+	justify-content: center;
+}
+
+.caja{
+	margin:150px 15px;
+	width: 150px;
+	height: 150px;
+	background: crimson;
+	color:black;
+	font-size: 40px;
+	text-align: center;
+	line-height: 150px;
+}
+
+.caja:nth-child(1){
+	background: purple;
+	transform: translateX(-50px);
+}
+
+.caja:nth-child(2){
+	background: purple;
+	transform: rotate(0.15turn);
+}
+
+.caja:nth-child(3){
+	background: purple;
+	transform: scale(0.5);
+}
+
+.caja:nth-child(4){
+	background: purple;
+	transform: skewX(15grad);
+	transform: skewY(15grad);
+}

@@ -1,0 +1,23 @@
+a{
+	background-repeat: #008080;
+	display: inline-block;
+}
+
+span{
+	background-color: #FF0080;
+	display: block;
+	height: 30px;
+}
+.caja1{
+	background-color:#FF8000;
+	display: inline-block
+	margin:auto;
+	padding:50px 10px;
+}
+
+.caja2{
+	background-color: #41CD89;
+	width: 50%;
+	margin: 50px 25px 10px 5px;
+	border: 10px solid green;
+}
