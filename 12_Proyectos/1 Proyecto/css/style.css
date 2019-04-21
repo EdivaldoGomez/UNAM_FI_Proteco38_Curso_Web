@@ -1,0 +1,124 @@
+nav{
+	position: fixed; /*Fixed ya que queremos que la posición sea en relación al navegador*/
+	top: 0; /*El valor 0 indica que va a quedar arriba de todo*/
+	left: 0; /*Para que el menu se ubique siempre en la parte izquierda de la pantalla*/
+	width: 100%; /*100% para que ocupe todo el ancho del navegador*/
+	background-color: #333;
+	overflow: hidden;
+}
+.nav{
+	background-color: black;
+	overflow: hidden;
+}
+.nav  li{
+	float: left;
+	list-style: none;
+}
+.nav a{
+  	color: white;
+ 	text-align: center;
+	padding: 1.2rem 1.2rem;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+.nav li a{
+	color: white;
+ 	text-align: center;
+	padding: 1.2rem 1.2rem;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+.nav li a:hover{
+	background-color: #ddd;
+ 	color: black;
+}
+.nav_active{
+	background-color: #4CAF50;
+  	color: white;
+}
+body{
+    background-image: url('../img/general_fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.imagen_index{
+	min-width: 4rem;
+	min-height: 4rem;
+	max-width: 40rem;
+}
+.flecha{
+	width: 8rem;
+	height: 8rem;
+
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	padding: 1rem 1rem;
+	list-style: none;
+}
+.item{ 
+	align-items: flex-end;
+	width: 50%;
+ 	height: 100%;
+ 	text-align: justify;
+	font-size: 1rem;
+	padding: 2rem 2rem;
+}
+.video{
+	width: 100%;
+ 	height: 100%;
+ 	text-align: justify;
+	font-size: 1rem;
+	padding: 2rem 2rem;
+}
+.imagen_datos{
+	align-self: center;
+	min-width: 10rem;
+	min-height: 10rem;
+	max-width: 30rem;
+}
+.imagen_charizard{
+	width: 15rem;
+	min-height: 5rem;
+	min-width: 5rem;
+ 	padding: 1rem 1rem;
+}
+.tabla{
+	padding-top: 5rem;
+}
+.imgTabla{
+	width: 50%;
+}
+.imagen_producto{
+	min-width: 2px;
+	min-height: 5px;
+	max-width: 100%;
+}
+.parrafo{ 
+ 	margin: auto;
+ 	text-align: justify;
+	font-size: 20px;
+	padding: 20px 20px;
+}
+footer{
+	position: fixed; /*Fixed ya que queremos que la posición sea en relación al navegador*/
+	bottom: 0; /*El valor 0 indica que va a quedar abajo de todo*/
+	left: 0; /*Para que el menu se ubique siempre en la parte izquierda de la pantalla*/
+	width: 100%; /*100% para que ocupe todo el ancho del navegador*/
+	max-height: 2rem;
+	background-color: black;
+	font-size: 0.75rem;
+}
+.foot li{
+  	float: left;
+	list-style: none;
+	padding-right: 1rem;
+	text-decoration: none;
+	overflow: hidden;
+}
+.foot img{
+	max-width: 1.25rem;
+	max-height: 1.25rem;
+}

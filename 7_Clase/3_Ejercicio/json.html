@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JSON to a Java Script</title>
+	<script>
+			function jsonParse(){
+				var enString=prompt("Escribe un objeto JSON");
+				var salida="";
+			miObjeto=JSON.parse(enString);
+			for (i in miObjeto) {
+				salida+="Propiedad: "+i+"="+miObjeto[i]+'\n';
+			}
+		}
+	</script>
+</head>
+<body onload="jsonParse()">
+</body>
+</html>
+

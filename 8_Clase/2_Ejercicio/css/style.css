@@ -1,0 +1,23 @@
+h2{
+	cursor:pointer;
+}
+#p1{
+	display:none;
+}
+.circle{
+	height: 100px;
+	width: 100px;
+	background-color: purple;
+	border-radius: 50%;
+}
+
+#slide,#slide2{
+	background-color: cyan;
+	font-size: 25px;
+}
+
+#contenido{
+	background-color: pink;
+	font-size: 20px;
+	display: none;
+}
